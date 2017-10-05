@@ -20,6 +20,7 @@
     "broccoli-funnel": "^2.0.1",
     "broccoli-json-module": "^1.0.0",
     "ember-ajax": "^3.0.0",
+    "ember-browserify": "^1.2.0",
     "ember-cli": "^2.15.1",
     "ember-cli-app-version": "^3.1.0",
     "ember-cli-babel": "^6.8.2",
@@ -38,7 +39,8 @@
     "ember-resolver": "^4.5.0",
     "ember-source": "^2.15.2",
     "ember-welcome-page": "^3.1.1",
-    "loader.js": "^4.6.0"
+    "loader.js": "^4.6.0",
+    "truffle-contract": "^3.0.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
