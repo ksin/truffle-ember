@@ -1,3 +1,8 @@
+/*
+  TODO-> Install web3 node module to replace injected version of web3.js with consistent development version
+  https://github.com/MetaMask/faq/blob/master/DEVELOPERS.md#partly_sunny-web3---ethereum-browser-environment-check
+*/
+
 /* globals web3 */
 import Ember from 'ember';
 
@@ -13,7 +18,7 @@ export function initialize(app) {
       return;
     }
 
-    // TODO-> install web3 node module in order to provide fallback
+    // TODO-> once web3 node module is installed, provide fallback in case of no injection
     // web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
     Ember.Logger.warn("truffle-ember: No web3 detected. Consider using Mist/Metamask.");
     app.advanceReadiness();
