@@ -1,6 +1,6 @@
 # truffle-ember
 
-This is a starter kit for building an Ember app that works with [Truffle](http://truffleframework.com/) for building Ethereum DApps.
+This is a starter kit for building an Ember app that works with [Truffle](http://truffleframework.com/) for building Ethereum DApps. See a more fleshed out demo app [here](https://github.com/ksin/truffle-ember-demo)
 
 ## Getting Started
 
